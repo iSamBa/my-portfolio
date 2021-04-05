@@ -16,13 +16,27 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
     script: [
       {
-        src:
-          'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js'
+        src: 'https://code.jquery.com/jquery-3.3.1.min.js',
+        type: 'text/javascript',
+        body: true
       },
-      { src: 'https://code.jquery.com/jquery-3.3.1.slim.min.js' },
+
       {
         src:
-          'https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js'
+          'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js',
+        type: 'text/javascript',
+        body: true
+      },
+      {
+        src: 'https://code.jquery.com/jquery-3.3.1.slim.min.js',
+        type: 'text/javascript',
+        body: true
+      },
+      {
+        src:
+          'https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js',
+        type: 'text/javascript',
+        body: true
       }
     ]
   },
@@ -45,9 +59,9 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/bootstrap
-    'bootstrap-vue/nuxt',
+    ['bootstrap-vue/nuxt'],
     // https://go.nuxtjs.dev/content
-    '@nuxt/content'
+    ['@nuxt/content']
   ],
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
