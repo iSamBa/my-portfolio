@@ -34,7 +34,7 @@ export default {
       },
       {
         src:
-          'https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js',
+          'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js',
         type: 'text/javascript',
         body: true
       }
@@ -59,7 +59,7 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/bootstrap
-    ['bootstrap-vue/nuxt'],
+    ['bootstrap-vue/nuxt', { css: false }],
     // https://go.nuxtjs.dev/content
     ['@nuxt/content']
   ],

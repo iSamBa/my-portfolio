@@ -1,8 +1,8 @@
 <template>
-  <div>
+  <main class="h-100 container-fluid">
     <navigation-bar />
-    <Nuxt />
-  </div>
+    <nuxt />
+  </main>
 </template>
 
 <style>

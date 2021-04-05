@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light box-inner">
-    <nuxt-link to="/" class="navbar-brand" exact>
+    <nuxt-link to="home" class="navbar-brand" exact>
       <strong>Aissam</strong> Bahou.
     </nuxt-link>
     <button
