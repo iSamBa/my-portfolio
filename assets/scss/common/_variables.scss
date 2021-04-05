@@ -1,5 +1,11 @@
 // imports
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Nunito:wght@400;600&display=swap');;
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600|Open+Sans:400,600');
+
+
+$spacer: 1rem !default;
+
 //colors 
 $primary: #F1A8AC !default;
 $secondary: #3A90E2 !default;
@@ -25,10 +31,10 @@ $theme-colors: map-merge((
     "alternate-light": lighten($alternate, 9%),
     "text-primary": $text-primary,
     "text-secondary": $text-secondary,
-), $theme-colors);
-
-// Fonts
-$font-family-base: 'Montserrat', sans-serif !default;
+    ), $theme-colors);
+    
+    // Fonts
+$font-family-sans-serif: 'Open Sans', sans-serif !default;
 $font-weight-semi-bold: 600;
 
 $font-size-base: 1rem !default; 
@@ -39,7 +45,7 @@ $font-size-xs: ($font-size-base * .6667);
 
 $line-height-base: 1.8 !default;
 
-$headings-font-family: 'Nunito', sans-serif !default;
+$headings-font-family: 'Montserrat', sans-serif !default;
 $headings-color: $heading-primary !default;
 $headings-line-height: 1.2 !default;
 $headings-font-weight: 400 !default;
@@ -52,3 +58,4 @@ $h4-font-size: $font-size-base * 1.5 !default;
 $h5-font-size: $font-size-base * 1.25 !default;
 $h6-font-size: $font-size-base !default; 
 
+$navbar-nav-link-padding-x: 1rem !default;

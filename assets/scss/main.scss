@@ -1,13 +1,6 @@
-@import "~bootstrap/scss/bootstrap";
 @import './common/variables';
+@import "~bootstrap/scss/bootstrap";
+@import './utilities';
 @import './components/navigationBar';
-@import './utilities/layout';
-@import './utilities/backgrounds';
-html {
-    *,
-    *::before,
-    *::after {
-        box-sizing: border-box;
-        margin: 0;
-    }
-}
+@import './components/footer';
+

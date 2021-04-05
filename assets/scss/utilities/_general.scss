@@ -1,0 +1,15 @@
+html,body, #__nuxt, #__layout {
+    height: 100%;
+}
+::selection { 
+    background: $secondary;
+    color: $white;
+}
+
+.cc-window {
+    text-align: center;
+
+    @include media-breakpoint-down(sm) {
+        margin: 15px;
+    }
+}

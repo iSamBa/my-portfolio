@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light box-inner">
-    <nuxt-link to="home" class="navbar-brand" exact>
+    <nuxt-link to="/" class="navbar-brand" exact>
       <strong>Aissam</strong> Bahou.
     </nuxt-link>
     <button
@@ -19,7 +19,7 @@
 
     <div id="navbarsExampleDefault" class="collapse navbar-collapse">
       <ul class="navbar-nav ml-auto">
-        <navigation-bar-link link="home">
+        <navigation-bar-link link="index">
           Home
         </navigation-bar-link>
         <navigation-bar-link link="about">
