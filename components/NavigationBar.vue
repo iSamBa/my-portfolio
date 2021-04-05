@@ -19,17 +19,11 @@
 
     <div id="navbarsExampleDefault" class="collapse navbar-collapse">
       <ul class="navbar-nav ml-auto">
-        <navigation-bar-link link="index">
+        <navigation-bar-link link="home">
           Home
         </navigation-bar-link>
         <navigation-bar-link link="about">
           About
-        </navigation-bar-link>
-        <navigation-bar-link link="work">
-          Work
-        </navigation-bar-link>
-        <navigation-bar-link link="contact">
-          Contact
         </navigation-bar-link>
       </ul>
     </div>
@@ -40,14 +34,11 @@
 export default {
   name: 'NavigationBar',
   watch: {
-    '$route' () {
-      // document.getElementById('navbarsExampleDefault').collapse('hide')
-      console.log($('#navbarsExampleDefault'))
+    $route () {
+      $('navbarsExampleDefault').collapse('hide')
     }
   }
 }
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
