@@ -1,7 +1,8 @@
 @import "~bootstrap/scss/bootstrap";
-
+@import './common/variables';
 @import './components/navigationBar';
 @import './utilities/layout';
+@import './utilities/backgrounds';
 html {
     *,
     *::before,

@@ -1,7 +1,9 @@
 <template>
   <div>
-    <section class="box-inner">
-      HOME PAGE
+    <section class="box-inner bg-primary">
+      <div class="container">
+        <h1>Hello World</h1>
+      </div>
     </section>
   </div>
 </template>
@@ -18,5 +20,6 @@ export default {
   }
 }
 </script>
-<style>
+<style lang="scss" scoped>
+
 </style>

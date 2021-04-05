@@ -1,0 +1,54 @@
+// imports
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Nunito:wght@400;600&display=swap');;
+//colors 
+$primary: #F1A8AC !default;
+$secondary: #3A90E2 !default;
+$alternate: #A8F0D1 !default;
+$white: #FFFFFF !default;
+
+$heading-primary: #343637;
+$text-primary: #777776;
+$text-secondary: #A5ADB4;
+
+$secondary-contrast: #1A5E9B !default;
+
+$theme-colors: () !default;
+$theme-colors: map-merge((
+    "primary":      $primary,
+    "primary-dark": darken($primary, 9%),
+    "primary-light": lighten($primary, 9%),
+    "secondary":    $secondary,
+    "secondary-dark": darken($secondary, 9%),
+    "secondary-light": lighten($secondary, 9%),
+    "alternate":    $alternate,
+    "alternate-dark": darken($alternate, 9%),
+    "alternate-light": lighten($alternate, 9%),
+    "text-primary": $text-primary,
+    "text-secondary": $text-secondary,
+), $theme-colors);
+
+// Fonts
+$font-family-base: 'Montserrat', sans-serif !default;
+$font-weight-semi-bold: 600;
+
+$font-size-base: 1rem !default; 
+$font-size-xl: ($font-size-base * 1.333);
+$font-size-lg: ($font-size-base * 1.111);
+$font-size-sm: ($font-size-base * .7778);
+$font-size-xs: ($font-size-base * .6667);
+
+$line-height-base: 1.8 !default;
+
+$headings-font-family: 'Nunito', sans-serif !default;
+$headings-color: $heading-primary !default;
+$headings-line-height: 1.2 !default;
+$headings-font-weight: 400 !default;
+$headings-font-weight-semi-bold: 600 !default;
+
+$h1-font-size: $font-size-base * 2.5 !default;
+$h2-font-size: $font-size-base * 2 !default;
+$h3-font-size: $font-size-base * 1.75 !default;
+$h4-font-size: $font-size-base * 1.5 !default;
+$h5-font-size: $font-size-base * 1.25 !default;
+$h6-font-size: $font-size-base !default; 
+
