@@ -1,10 +1,6 @@
 <template>
   <div>
-    <section class="box-inner bg-primary">
-      <div class="container">
-        <h1>Hello World</h1>
-      </div>
-    </section>
+    <my-heading />
   </div>
 </template>
 
