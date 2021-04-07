@@ -1,16 +1,14 @@
 <template>
-  <section class="box-inner bg-primary">
-    <b-container>
-      <b-row>
-        <b-col align-self="center">
-          <h3>Hello World</h3>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum alias odit nesciunt id dicta impedit recusandae, expedita rerum tempore laboriosam aliquam cupiditate ipsam sapiente in laborum officia doloribus asperiores amet.</p>
-        </b-col>
-        <b-col align-self="center">
-          <img alt="heading illustration" srcset="~/static/images/heading.svg">
-        </b-col>
-      </b-row>
-    </b-container>
+  <section id="heading" class="box-inner bg-primary">
+    <div class="content">
+      <div class="info">
+        <h3>Hello World</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore similique repellendus beatae, animi reiciendis placeat saepe impedit ipsum, nesciunt, molestiae ad iure quasi quidem necessitatibus blanditiis? Doloribus amet non nostrum.</p>
+      </div>
+      <div class="illustration">
+        <img srcset="~/static/images/me.png" alt="profile picture">
+      </div>
+    </div>
   </section>
 </template>
 
