@@ -1,11 +1,29 @@
+#heading {
+    border-radius: 10px;
+    @include media-breakpoint-down(md) {
+        border-radius: 15px;
+    }
+}
 .content {
     padding : 40px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
+    overflow: hidden;
+    p {
+        text-align: justify;
+        width: clamp(70%, 80%, 90%);
+    }
     
-    @include media-breakpoint-down(sm) {
+    @include media-breakpoint-down(md) {
         padding: 15px;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        p  {
+            width: 100%;
+        }
+    
+        text-align: center;
     }
 }
