@@ -14,7 +14,9 @@
         text-align: justify;
         width: clamp(70%, 80%, 90%);
     }
-    
+    img {
+        border-radius: 50%;
+    } 
     @include media-breakpoint-down(md) {
         padding: 15px;
         flex-direction: column;
