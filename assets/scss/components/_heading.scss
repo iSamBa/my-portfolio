@@ -1,5 +1,6 @@
 #heading {
     border-radius: 10px;
+    background: lighten(#ddd, 5%);
     @include media-breakpoint-down(md) {
         border-radius: 15px;
     }
@@ -7,14 +8,21 @@
 .content {
     padding : 40px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     align-content: center;
     overflow: hidden;
     width: 100%;
-
+  
     .info, .illustration {
-        width: 50%;
+       width: 50%;
+       display: flex;
+       justify-content: center;
+       align-items : center;
+    }
+
+    .info {
+        flex-direction: column;
     }
 
     p {
@@ -23,7 +31,8 @@
     }
     img {
         border-radius: 50%;
-        width: 90%;
+        width: 60%;
+    
     } 
     @include media-breakpoint-down(md) {
         padding: 15px;
