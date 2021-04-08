@@ -1,8 +1,8 @@
 <template>
-  <section id="heading" class="box-inner bg-primary">
+  <section id="heading" class="box-inner ">
     <div class="content">
       <div class="info">
-        <h3>Hello World</h3>
+        <h3>Hi 👋🏼</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore similique repellendus beatae, animi reiciendis placeat saepe impedit ipsum, nesciunt, molestiae ad iure quasi quidem necessitatibus blanditiis? Doloribus amet non nostrum.</p>
       </div>
       <div class="illustration">

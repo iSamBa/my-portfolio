@@ -7,15 +7,23 @@
 .content {
     padding : 40px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
+    align-content: center;
     overflow: hidden;
+    width: 100%;
+
+    .info, .illustration {
+        width: 50%;
+    }
+
     p {
         text-align: justify;
-        width: clamp(70%, 80%, 90%);
+        width: 90%;
     }
     img {
         border-radius: 50%;
+        width: 90%;
     } 
     @include media-breakpoint-down(md) {
         padding: 15px;
@@ -24,6 +32,9 @@
         align-items: center;
         p  {
             width: 100%;
+        }
+        img {
+            order : 1;
         }
     
         text-align: center;
