@@ -9,6 +9,7 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore similique repellendus beatae, animi reiciendis placeat saepe impedit ipsum, nesciunt, molestiae ad iure quasi quidem necessitatibus blanditiis? Doloribus amet non nostrum.</p>
       </div>
     </div>
+    <span id="circle" />
   </section>
 </template>
 
