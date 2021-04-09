@@ -64,7 +64,7 @@ export default {
   css: ['@/assets/scss/main.scss'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: ['@/plugins/portal-vue.js'],
+  plugins: ['@/plugins/portal-vue.js', '@/plugins/vue-observe-visibility.js'],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -103,6 +103,6 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    transpile: ['portal-vue']
+    transpile: ['portal-vue', 'vue-observe-visibility']
   }
 }

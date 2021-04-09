@@ -1,0 +1,11 @@
+   .logo {
+        background: $white;
+        display: block;
+        margin: 0 auto;
+        width: 300px;
+        color: $heading-primary;
+        font-size: $font-size-sm;
+        strong {
+            font-size: $font-size-lg;
+        }
+    }
