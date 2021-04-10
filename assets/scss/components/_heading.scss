@@ -2,6 +2,7 @@
     box-shadow: 2px 2px 10px rgba($color: darken(#eee, 20%), $alpha: .5) ;
     position : relative;
     z-index: 1;
+    color: $white;
     overflow: hidden;
     @include media-breakpoint-down(md) {
         border-radius: 15px;
@@ -42,28 +43,28 @@
     overflow: hidden;
   
     .information, .illustration {
-       z-index : 5;
+       z-index : 3;
        position: relative;
        display: flex;
        justify-content: center;
        align-items : flex-start;
+       p {
+           text-align: justify;
+           width: 90%;
+       }
+       img {
+           border-radius: 50%;
+           transition: all 1s ease;
+           transform : scale(.8);
+           box-shadow: 2px 2px 10px rgba(#000, 0.2);
+           cursor: pointer;
+       } 
     }
     
     .information {
         flex-direction: column;
     }
 
-    p {
-        text-align: justify;
-        width: 90%;
-    }
-    img {
-        border-radius: 50%;
-        transition: all 1s ease;
-        transform : scale(.7);
-        box-shadow: 2px 2px 10px rgba(#000, 0.2);
-        cursor: pointer;
-    } 
     
     @include media-breakpoint-down(md) {
         padding: 15px;

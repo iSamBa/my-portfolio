@@ -1,12 +1,9 @@
 .bg-primary {
-    //background-color: $primary !important;
     background-image: url("~/static/images/Sun-Tornado.svg");
-    background-color: #FF7700;
     background-repeat: no-repeat ;
     background-size: cover;
 
     h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-        color: $white;
         margin-block: 25px;
     }
 }
