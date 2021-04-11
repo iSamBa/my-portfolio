@@ -1,8 +1,4 @@
-@import './common/variables';
 @import "~bootstrap/scss/bootstrap";
+@import './common/variables';
 @import './utilities';
-@import './components/navigationBar';
-@import './components/footer';
-@import './components/heading';
-
-
+@import './components'
