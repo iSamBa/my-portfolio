@@ -1,6 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600|Open+Sans:400,600');
+
+$font-family-sans-serif: 'Open Sans', sans-serif !default;
+$font-weight-semi-bold: 600;
+
+$font-size-base: 1rem !default; 
+$font-size-xl: ($font-size-base * 1.333);
+$font-size-lg: ($font-size-base * 1.111);
+$font-size-sm: ($font-size-base * .7778);
+$font-size-xs: ($font-size-base * .6667);
+
+$line-height-base: 1.8 !default;
+
+$headings-font-family: 'Montserrat', sans-serif !default;
+$headings-color: $heading-primary !default;
+$headings-line-height: 1.2 !default;
+$headings-font-weight: 400 !default;
+$headings-font-weight-semi-bold: 600 !default;
+
+$h1-font-size: $font-size-base * 2.5 !default;
+$h2-font-size: $font-size-base * 2 !default;
+$h3-font-size: $font-size-base * 1.75 !default;
+$h4-font-size: $font-size-base * 1.5 !default;
+$h5-font-size: $font-size-base * 1.25 !default;
+$h6-font-size: $font-size-base !default; 
 
 h1,h2,h3,h4,h5,h6 {
-   font-family: 'Pacifico', cursive;
+   font-family: $headings-font-family;
+   font-weight: $headings-font-weight;
    margin-block: 1.2em;
+}
+h1 {
+   font-size: $h1-font-size;
+}
+h2 {
+   font-size: $h2-font-size;
+}
+h3 {
+   font-size: $h3-font-size;
+}
+h4 {
+   font-size: $h4-font-size;
+}
+h5 {
+   font-size: $h5-font-size;
+}
+h6 {
+   font-size: $h6-font-size;
+}
+
+p {
+   font-family: $font-family-sans-serif;
 }

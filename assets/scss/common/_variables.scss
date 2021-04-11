@@ -1,7 +1,6 @@
 // imports
 
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600|Open+Sans:400,600');
 
 
 $spacer: 1rem !default;
@@ -9,7 +8,7 @@ $spacer: 1rem !default;
 //colors 
 //$primary: #F1A8AC !default;
 //$primary: #3F79AD !default;
-$primary: #03395eb4 !default;
+$primary: #0764a165 !default;
 $secondary: #3A90E2 !default;
 $alternate: #A8F0D1 !default;
 $white: #FFFFFF !default;
@@ -35,30 +34,6 @@ $theme-colors: map-merge((
     "text-secondary": $text-secondary,
     ), $theme-colors);
     
-    // Fonts
-$font-family-sans-serif: 'Open Sans', sans-serif !default;
-$font-weight-semi-bold: 600;
-
-$font-size-base: 1rem !default; 
-$font-size-xl: ($font-size-base * 1.333);
-$font-size-lg: ($font-size-base * 1.111);
-$font-size-sm: ($font-size-base * .7778);
-$font-size-xs: ($font-size-base * .6667);
-
-$line-height-base: 1.8 !default;
-
-$headings-font-family: 'Montserrat', sans-serif !default;
-$headings-color: $heading-primary !default;
-$headings-line-height: 1.2 !default;
-$headings-font-weight: 400 !default;
-$headings-font-weight-semi-bold: 600 !default;
-
-$h1-font-size: $font-size-base * 2.5 !default;
-$h2-font-size: $font-size-base * 2 !default;
-$h3-font-size: $font-size-base * 1.75 !default;
-$h4-font-size: $font-size-base * 1.5 !default;
-$h5-font-size: $font-size-base * 1.25 !default;
-$h6-font-size: $font-size-base !default; 
 
 $navbar-nav-link-padding-x: 1rem !default;
 
