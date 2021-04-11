@@ -6,7 +6,7 @@
       </div>
       <div class="information">
         <h3>Hello there 👋🏼 !!</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore similique repellendus beatae, animi reiciendis placeat saepe impedit ipsum, nesciunt, molestiae ad iure quasi quidem necessitatibus blanditiis? Doloribus amet non nostrum.</p>
+        <p>I bring website ideas to life</p>
       </div>
     </div>
     <span id="circle" />

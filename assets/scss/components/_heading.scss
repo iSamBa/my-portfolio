@@ -7,7 +7,6 @@
     @include media-breakpoint-down(md) {
         border-radius: 15px;
     }
-}
 
 #circle {
     width: 600px;
@@ -46,11 +45,11 @@
        z-index : 3;
        position: relative;
        display: flex;
-       justify-content: center;
+       justify-content: flex-start;
        align-items : flex-start;
        p {
            text-align: justify;
-           width: 90%;
+           width: 100%;
        }
        img {
            border-radius: 50%;
@@ -64,8 +63,7 @@
     .information {
         flex-direction: column;
     }
-
-    
+   
     @include media-breakpoint-down(md) {
         padding: 15px;
         flex-direction: column;
@@ -77,7 +75,7 @@
         img {
            transform : scale(0.8)
         }
-    
         text-align: center;
     }
+}
 }

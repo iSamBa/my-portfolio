@@ -1,11 +1,14 @@
 <template>
   <div>
     <my-heading />
+    <projects-list />
   </div>
 </template>
 
 <script>
+import ProjectsList from '~/components/ProjectsList.vue'
 export default {
+  components: { ProjectsList },
   head () {
     return {
       title: 'Aissam Bahou',
