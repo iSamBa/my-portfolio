@@ -1,8 +1,6 @@
 <template>
   <footer v-observe-visibility="visibilityChanged" class="container-fluid" :class="visible">
-    <div class="top">
-      <span class="logo"><strong>Aissam</strong> Bahou</span>
-    </div>
+    <title-item title="Aissam" subtitle="Bahou" />
     <ul class="socials">
       <li><a href="https://www.twitter.com/isamba21/" target="_blank"><font-awesome-icon :icon="['fab', 'twitter']" /></a></li>
       <li><a href="https://www.github.com/isamba/" target="_blank"><font-awesome-icon :icon="['fab', 'github']" /></a></li>

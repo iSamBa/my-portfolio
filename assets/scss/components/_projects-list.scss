@@ -1,0 +1,12 @@
+#projects {
+    margin-top: 24px;
+    box-shadow: 2px 2px 10px rgba($color: darken(#eee, 20%), $alpha: .5) ;
+    position : relative;
+    width: 100;
+    z-index: 1;
+    overflow: hidden;
+    @include media-breakpoint-down(md) {
+        border-radius: 15px;
+    }
+    
+}

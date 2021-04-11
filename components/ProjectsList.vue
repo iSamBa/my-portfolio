@@ -1,9 +1,6 @@
 <template>
   <section id="projects" class="box-inner ">
-    <div class="content">
-      PROJECTS
-    </div>
-    <span id="circle" />
+    <div class="content" />
   </section>
 </template>
 
