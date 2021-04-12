@@ -4,7 +4,22 @@
 
 <script>
 export default {
-  name: 'ProjectItem'
+  name: 'ProjectItem',
+  props: {
+    title: {
+      type: String,
+      required: true
+    },
+    content: {
+      type: String,
+      required: true
+    },
+    imageURL: {
+      type: String,
+      required: true
+    }
+  }
+
 }
 </script>
 
