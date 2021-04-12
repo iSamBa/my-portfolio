@@ -1,0 +1,25 @@
+.project {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    div {
+        margin-left: clamp(24px, 50px, 80px);
+    }
+
+    .github, .live {
+        border: solid 2px $primary;
+        border-radius: 10px;
+        width: 300px;
+        height: 250px;
+        padding: 10px;
+        text-decoration: none;
+        &:hover {
+            background-color: $primary;
+            color: $white;
+        }
+    }
+    .github {
+        margin-right: 12px;
+    }
+}

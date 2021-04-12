@@ -4,8 +4,8 @@
     <div>
       <h1>{{ title }}</h1>
       <p>{{ content }}</p>
-      <a :href="repoUrl">GitHub</a>
-      <a :href="webUrl">Live demo</a>
+      <a class="github" :href="repoUrl" target="_blank">GitHub</a>
+      <a class="live" :href="webUrl" target="_blank">Live demo</a>
     </div>
   </div>
 </template>
