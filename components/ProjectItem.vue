@@ -1,11 +1,13 @@
 <template>
-  <div class="box-inner project">
-    <img :src="imageUrl" alt="">
-    <div>
-      <h1>{{ title }}</h1>
-      <p>{{ content }}</p>
-      <a class="github" :href="repoUrl" target="_blank">GitHub</a>
-      <a class="live" :href="webUrl" target="_blank">Live demo</a>
+  <div class="project-container">
+    <div class="project">
+      <img :src="imageUrl" alt="">
+      <div>
+        <h1>{{ title }}</h1>
+        <p>{{ content }}</p>
+        <a class="github" :href="repoUrl" target="_blank">GitHub</a>
+        <a class="live" :href="webUrl" target="_blank">Live demo</a>
+      </div>
     </div>
   </div>
 </template>

@@ -10,10 +10,10 @@
         :repo-url="project.repoURL"
         :web-url="project.webURL"
       />
-      <button v-if="loadMore" @click="loadMoreProjects">
-        LoadMore
-      </button>
     </div>
+    <button v-if="loadMore" @click="loadMoreProjects">
+      LoadMore
+    </button>
   </section>
 </template>
 
