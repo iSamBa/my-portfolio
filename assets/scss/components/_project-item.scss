@@ -18,18 +18,29 @@
     }
 
     .github, .live {
-        border: solid 2px $primary;
         border-radius: 10px;
         width: 300px;
         height: 250px;
         padding: 10px;
         text-decoration: none;
         &:hover {
-            background-color: $primary;
             color: $white;
         }
     }
     .github {
+        border: solid 2px black;
+        color: black;
         margin-right: 12px;
+        &:hover{
+            background-color: black;
+        }
+    }
+    .live {
+         border: solid 2px $primary;
+        color: $primary;
+        margin-right: 12px;
+        &:hover{
+            background-color: $primary;
+        }
     }
 }
