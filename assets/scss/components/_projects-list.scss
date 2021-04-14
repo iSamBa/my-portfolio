@@ -8,10 +8,11 @@
     .content {
         display: grid;
         gap : 1rem;
-        grid-template-columns: 1fr 1fr ;
+        grid-template-columns: calc(50% - 20px) calc(50% - 20px);
         grid-template-rows: 60%;
         @include media-breakpoint-down(md) {
-            grid-template-columns: 1fr ;
+            grid-template-columns: calc(100% - 80px) ;
+            place-content: center;
         }
      
     }

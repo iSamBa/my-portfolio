@@ -4,8 +4,8 @@
     <div>
       <h3>{{ title }}</h3>
       <p>{{ content }}</p>
-      <a class="github" :href="repoUrl" target="_blank"><font-awesome-icon :icon="['fab', 'github']" /> Github</a>
-      <a class="live" :href="webUrl" target="_blank"><font-awesome-icon :icon="['fab', 'chrome']" /> Live</a>
+      <a class="btn btn-lg btn-dark" :href="repoUrl" target="_blank"><font-awesome-icon :icon="['fab', 'github']" /> Github</a>
+      <a class="btn btn-lg btn-primary" :href="webUrl" target="_blank"><font-awesome-icon :icon="['fab', 'chrome']" /> Live</a>
     </div>
   </div>
 </template>
