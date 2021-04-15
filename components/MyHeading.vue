@@ -5,8 +5,8 @@
         <img srcset="~/static/images/me.png" alt="profile picture">
       </div>
       <div class="information">
-        <h3>Hello there 👋🏼 !!</h3>
-        <p>I bring website ideas to life</p>
+        <h2>My name is <strong>Aissam</strong></h2>
+        <p>FULL STACK DEVELOPER</p>
       </div>
     </div>
     <span id="circle" />
