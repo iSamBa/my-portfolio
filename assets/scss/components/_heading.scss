@@ -33,13 +33,12 @@
     height: 100%;
     position: relative;
     overflow: hidden;
-    z-index: 1;
+    z-index: 3;
       
     .information, .illustration {
         z-index : 3;
         position: relative;
         display: flex;
-        
         img {
             border-radius: 50%;
             transition: all 1s ease;
@@ -49,12 +48,21 @@
     }
     
     .information {
+        position: relative;
+        z-index: 5;
         flex-direction: column;
         justify-content: center;
         margin-left: 24px ;
         @include media-breakpoint-down(md) {
             align-items: center;
             margin-left: 12px ;
+        }
+        button {
+            cursor: pointer;
+            &:hover{
+                background-color: $white;
+                color: $heading-primary;
+            }
         }
     }
     
@@ -63,13 +71,13 @@
         align-items: center;
         justify-content:flex-start;
         padding: 15px;
+        text-align: center;
         p  {
             width: 100%;
         }
         img {
-            transform : scale(0.8)
+            transform : scale(1)
         }
-        text-align: center;
     }
 }
 }
