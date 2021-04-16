@@ -12,7 +12,6 @@
         </button>
       </div>
     </div>
-    <span id="circle" />
   </section>
 </template>
 
